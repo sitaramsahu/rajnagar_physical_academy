@@ -81,9 +81,9 @@ const Header = () => {
             <a href="/contact" className="hover:text-yellow-300">
               Contact Us
             </a>
-            <a href="/login" className="hover:text-yellow-300">
+            {/* <a href="/login" className="hover:text-yellow-300">
               Login
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -104,9 +104,9 @@ const Header = () => {
           <a href="/contact" className="block py-2 hover:text-yellow-300">
             Contact Us
           </a>
-          <a href="/login" className="block py-2 hover:text-yellow-300">
+          {/* <a href="/login" className="block py-2 hover:text-yellow-300">
             Login
-          </a>
+          </a> */}
         </div>
       </nav>
     </header>
