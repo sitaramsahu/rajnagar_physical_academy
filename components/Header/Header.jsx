@@ -72,8 +72,8 @@ const Header = () => {
             <a href="/courses" className="hover:text-yellow-300">
               Courses
             </a>
-            <a href="/admissions" className="hover:text-yellow-300">
-              Admissions
+            <a href="/sarkari-naukri" className="hover:text-yellow-300">
+              सरकारी नौकरियां
             </a>
             <a href="/about" className="hover:text-yellow-300">
               About Us
@@ -95,8 +95,11 @@ const Header = () => {
           <a href="/courses" className="block py-2 hover:text-yellow-300">
             Courses
           </a>
-          <a href="/admissions" className="block py-2 hover:text-yellow-300">
-            Admissions
+          <a
+            href="/sarkari-naukri"
+            className="block py-2 hover:text-yellow-300"
+          >
+            सरकारी नौकरियां
           </a>
           <a href="/about" className="block py-2 hover:text-yellow-300">
             About Us
