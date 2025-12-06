@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Rojgar Updates - ASRS",
-  description: "Daily Sarkari Naukri Updates in Hindi and English",
+  title: "Rajnagar Physical Academy - Learn Physical Education Online",
+  description:
+    "Join Rajnagar Physical Academy to excel in physical education with expert-led courses, practical training, and career support.",
 };
 
 export default function RootLayout({ children }) {

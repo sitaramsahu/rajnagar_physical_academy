@@ -26,13 +26,15 @@ const Header = () => {
         {/* Logo + Title */}
         <div className="flex items-center gap-3">
           <div className="bg-blue-700 text-white w-12 h-12 flex items-center justify-center font-bold rounded-full">
-            <img src="/asrs_logo.png" alt="ASRS RojgarLogo" />
+            <img src="/jobs0.png" alt="Rajnagar Physical Academy" />
           </div>
           <div>
             <h1 className="text-xl md:text-2xl font-bold text-blue-800">
-              Rojgar Updates - ASRS
+              Rajnagar Physical Academy
             </h1>
-            <p className="text-gray-600 text-sm">आज की ताज़ा सरकारी नौकरियां</p>
+            <p className="text-gray-600 text-sm">
+              Physical Education and Training
+            </p>
           </div>
         </div>
 
@@ -52,7 +54,7 @@ const Header = () => {
         <div className="container mx-auto flex flex-wrap justify-between items-center px-4 py-3">
           {/* Logo / Brand Name */}
           <a href="/" className="text-lg font-bold hover:text-yellow-300">
-            ASRS Jobs
+            Rajnagar Physical Academy
           </a>
 
           {/* Hamburger Menu (Mobile) */}
@@ -67,14 +69,8 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-6 text-sm md:text-base">
-            <a href="/latest-job" className="hover:text-yellow-300">
-              Latest Jobs
-            </a>
-            <a href="/results" className="hover:text-yellow-300">
-              Results
-            </a>
-            <a href="/admit-cards" className="hover:text-yellow-300">
-              Admit Cards
+            <a href="/courses" className="hover:text-yellow-300">
+              Courses
             </a>
             <a href="/admissions" className="hover:text-yellow-300">
               Admissions
@@ -96,14 +92,8 @@ const Header = () => {
           id="mobile-menu"
           className="md:hidden hidden bg-blue-600 px-4 pb-3"
         >
-          <a href="/latest-job" className="block py-2 hover:text-yellow-300">
-            Latest Jobs
-          </a>
-          <a href="/results" className="block py-2 hover:text-yellow-300">
-            Results
-          </a>
-          <a href="/admit-cards" className="block py-2 hover:text-yellow-300">
-            Admit Cards
+          <a href="/courses" className="block py-2 hover:text-yellow-300">
+            Courses
           </a>
           <a href="/admissions" className="block py-2 hover:text-yellow-300">
             Admissions
