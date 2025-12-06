@@ -33,8 +33,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {/* Section 1: Logo, slogan, social links */}
         <div>
-          <h2 className="text-2xl font-bold mb-2">ASRS News</h2>
-          <p className="mb-4 text-gray-300">आज की ताज़ा सरकारी नौकरियां</p>
+          <h2 className="text-2xl font-bold mb-2">Rajnagar Physical Academy</h2>
+          <p className="mb-4 text-gray-300">Physical Education and Training</p>
           <div className="flex gap-4 text-gray-400">
             <a
               href="#"
@@ -84,10 +84,10 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="/private-jobs"
+                href="/courses"
                 className="hover:underline hover:text-gray-200"
               >
-                Private Jobs
+                Courses
               </a>
             </li>
           </ul>
@@ -102,7 +102,7 @@ const Footer = () => {
                 href="/latest-jobs"
                 className="hover:underline hover:text-gray-200"
               >
-                Latest Jobs
+                Latest Vacancies
               </a>
             </li>
             <li>
@@ -157,7 +157,8 @@ const Footer = () => {
 
       {/* Bottom copyright */}
       <div className="text-center mt-10 text-gray-400 text-sm border-t border-gray-700 pt-6">
-        © 2025 ASRS Rojgar Updates by ASRS.
+        © 2025 Rajnagar Physical Academy by{" "}
+        <a href="https://coadies.in/"> Coadies India.</a>
       </div>
     </footer>
   );
