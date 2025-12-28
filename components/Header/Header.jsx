@@ -43,7 +43,7 @@ const Header = () => {
           <Search className="text-gray-500 mr-2" />
           <input
             type="text"
-            placeholder="Search jobs..."
+            placeholder="Search..."
             className="bg-transparent flex-1 outline-none"
           />
         </div>
@@ -71,6 +71,7 @@ const Header = () => {
           <div className="hidden md:flex gap-6 text-sm md:text-base">
             <a href="/courses" className="hover:text-yellow-300">
               Courses
+              {/* dropdown  */}
             </a>
             <a href="/sarkari-naukri" className="hover:text-yellow-300">
               सरकारी नौकरियां

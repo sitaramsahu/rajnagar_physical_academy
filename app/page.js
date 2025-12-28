@@ -1,49 +1,32 @@
 "use client";
+import HeroTabs from "@/components/Home/HeroTabs";
 import Image from "next/image";
 
 export default function Home() {
   const fallbackImage = "/jobs0.png";
 
+  const scrollImages = [
+    {
+      img: "/jobs0.png",
+      link: "/enrollment",
+      text: "Enroll Now",
+    },
+    {
+      img: "/jobs0.png",
+      link: "/registration",
+      text: "Register Now",
+    },
+    {
+      img: "/jobs0.png",
+      link: "/",
+      text: "Rajnagar Physical Academy",
+    },
+  ];
+
   return (
     <div className="min-h-screen flex flex-col bg-zinc-50 dark:bg-black font-sans">
-      {/* Hero Section */}
-      <main className="relative z-10 flex flex-1 w-full max-w-5xl mx-auto flex-col items-center justify-center py-20 px-6 text-center md:text-left">
-        <div className="flex flex-col md:flex-row items-center gap-10">
-          <div className="flex-1 space-y-6">
-            <h2 className="text-4xl md:text-5xl font-semibold text-zinc-900 dark:text-zinc-100 leading-tight">
-              Welcome to Our Physical Academy
-            </h2>
-            <p className="text-lg text-zinc-700 dark:text-zinc-300 max-w-lg">
-              Learn, train, and grow with expert instructors. Build your career
-              with high-quality physical education programs.
-            </p>
-            <div className="flex gap-4 mt-4">
-              <a
-                href="/courses"
-                className="px-6 py-3 bg-black text-white dark:bg-white dark:text-black rounded-full font-medium hover:opacity-80"
-              >
-                Explore Courses
-              </a>
-              <a
-                href="#contact"
-                className="px-6 py-3 border border-black dark:border-white rounded-full text-black dark:text-white font-medium hover:bg-black/[0.05] dark:hover:bg-white/[0.1]"
-              >
-                Contact Us
-              </a>
-            </div>
-          </div>
-
-          <div className="flex-1 flex justify-center">
-            <Image
-              src="/Image-1.jpg"
-              alt="Academy Illustration"
-              width={350}
-              height={350}
-              className="rounded-2xl shadow-md object-cover"
-            />
-          </div>
-        </div>
-      </main>
+      {/* Hero Section 
+      <HeroTabs />*/}
 
       {/* full width video */}
       <div className="w-full bg-black/5 dark:bg-white py-0 mt-0 flex justify-center">
@@ -55,10 +38,17 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
       </div>
-
+      {/* full width Image Slider */}
+      <div className="w-full bg-black/5 dark:bg-white py-0 mt-0 flex justify-center">
+        <img
+          src="/Image-1.jpg"
+          alt="Slider-1"
+          className="w-full max-w-7xl h-auto rounded-lg shadow-lg"
+        />
+      </div>
       {/* Our Students Get the Job like-Home Guard, Police, Army, Navy, Air Force, and more */}
       <section className="w-full bg-white dark:bg-zinc-900 py-10 mt-10 flex flex-col items-center">
-        <h3 className="text-3xl font-semibold text-zinc-900 dark:text-zinc-100 mb-6">
+        <h3 className="text-sm lg:text-3xl font-semibold text-zinc-900 dark:text-zinc-100 mb-6">
           Our Students Get the Job like- Home Guard, Police, Army, Navy, Air
           Force, and more
         </h3>
