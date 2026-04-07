@@ -157,7 +157,7 @@ const Footer = () => {
 
       {/* Bottom copyright */}
       <div className="text-center mt-10 text-gray-400 text-sm border-t border-gray-700 pt-6">
-        © 2025 Rajnagar Physical Academy by{" "}
+        © {new Date().getFullYear()} Rajnagar Physical Academy by{" "}
         <a href="https://coadies.in/"> Coadies India.</a>
       </div>
     </footer>

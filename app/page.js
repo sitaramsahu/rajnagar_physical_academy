@@ -29,7 +29,7 @@ export default function Home() {
       <HeroTabs />*/}
 
       {/* full width video */}
-      <div className="w-full bg-black/5 dark:bg-white py-0 mt-0 flex justify-center">
+      {/* <div className="w-full bg-black/5 dark:bg-white py-0 mt-0 flex justify-center">
         <video
           src="/rpa-home-video-1.mp4"
           controls
@@ -37,17 +37,35 @@ export default function Home() {
         >
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
       {/* full width Image Slider */}
       <div className="w-full bg-black/5 dark:bg-white py-0 mt-0 flex justify-center">
         <img
-          src="/Image-1.jpg"
-          alt="Slider-1"
-          className="w-full max-w-7xl h-auto rounded-lg shadow-lg"
+          src="/Home_Img_1.png"
+          alt="Group Photo Rajnagar Physical Academy"
+          className="w-full max-w-9xl lg:h-[650px] h-[400px]  rounded-lg shadow-lg"
+        />
+      </div>
+      {/* full width Image Slider Event */}
+      <div className="w-full bg-black/5 dark:bg-white py-0 mt-0 lg:flex flex-row justify-center ">
+        <img
+          src="/Event_1.jpg"
+          alt="Event Photo Rajnagar Physical Academy"
+          className="lg:w-1/3 w-fit lg:h-[650px] h-auto  rounded-lg shadow-lg"
+        />
+        <img
+          src="/Event_2.jpg"
+          alt="Event Photo Rajnagar Physical Academy"
+          className="lg:w-1/3 w-fit lg:h-[650px] h-auto  rounded-lg shadow-lg"
+        />
+        <img
+          src="/Event_3.jpg"
+          alt="Event Photo Rajnagar Physical Academy"
+          className="lg:w-1/3 w-fit lg:h-[650px] h-auto  rounded-lg shadow-lg"
         />
       </div>
       {/* Our Students Get the Job like-Home Guard, Police, Army, Navy, Air Force, and more */}
-      <section className="w-full bg-white dark:bg-zinc-900 py-10 mt-10 flex flex-col items-center">
+      {/* <section className="w-full bg-white dark:bg-zinc-900 py-10 mt-10 flex flex-col items-center">
         <h3 className="text-sm lg:text-3xl font-semibold text-zinc-900 dark:text-zinc-100 mb-6">
           Our Students Get the Job like- Home Guard, Police, Army, Navy, Air
           Force, and more
@@ -79,7 +97,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

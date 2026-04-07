@@ -26,7 +26,10 @@ const Header = () => {
         {/* Logo + Title */}
         <div className="flex items-center gap-3">
           <div className="bg-blue-700 text-white w-12 h-12 flex items-center justify-center font-bold rounded-full">
-            <img src="/jobs0.png" alt="Rajnagar Physical Academy" />
+            <img
+              src="/हर_कदम_सफलता_की_ओर.png"
+              alt="Rajnagar Physical Academy"
+            />
           </div>
           <div>
             <h1 className="text-xl md:text-2xl font-bold text-blue-800">

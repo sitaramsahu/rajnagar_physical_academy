@@ -5,7 +5,7 @@ import React from "react";
 
 const NotFound = () => {
   return (
-    <div className="min-h-[50vh] flex flex-col items-center justify-center bg-gradient-to-b from-amber-500 to-amber-700 text-white text-center px-4">
+    <div className="min-h-[50vh] flex flex-col items-center justify-center bg-gradient-to-b from-blue-500 to-[#20124d] text-white text-center px-4">
       {/* 404 Animation */}
       <motion.h1
         initial={{ scale: 0.8, opacity: 0 }}
